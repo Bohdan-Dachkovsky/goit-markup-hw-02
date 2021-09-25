@@ -1,0 +1,148 @@
+body {
+  position: absolute;
+  font-style: normal;
+}
+/* HEADING  */
+body h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 2;
+}
+.main-content h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.main-content h2 {
+  text-align: center;
+  font-size: 2.2;
+}
+.main-content h3 {
+  font-size: 2;
+}
+/* Helping items */
+ul {
+  list-style: none;
+}
+a,
+button {
+  text-decoration: none;
+}
+header {
+  letter-spacing: 0.02em;
+}
+main {
+  letter-spacing: 0.06em;
+}
+footer {
+  letter-spacing: 0.03em;
+}
+/* Site header begins */
+.logo b {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #404040;
+}
+.logo .half-1 {
+  color: #2196f3;
+}
+/* Pages color */
+.title .title-1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.sub-nav .title .title-2 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #2196f3;
+}
+.item a {
+  font-family: Roboto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+/* Add hover, focus and active dark/blue color for nav unit */
+.title .title-1:focus,
+.title .title-1:hover,
+.title .title-1:active {
+  color: #2196f3;
+}
+.item .e-mail:hover,
+.item .e-mail:focus {
+  color: black;
+}
+.item .tel:hover,
+.item .tel:focus {
+  color: black;
+}
+/* Main content */
+.titles .btn-option {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* background div) */
+.titles .btn {
+}
+/* Projects commyuity */
+.feature .paper {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.section .feature p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  color: #757575;
+}
+/* End main content and footer starting */
+.footerbox .link-1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footerbox .link-1 .site {
+  color: #2196f3;
+}
+.list .city-loc {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.registr .list .details {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgb(255, 255, 255, 0.6);
+}
+.footerbox {
+  background-color: #2f303a;
+}
