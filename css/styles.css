@@ -1,5 +1,5 @@
 :root {
-  --master-color: #2f303a;
+  --background-color: #2f303a;
 }
 /* body {                                       
   position: absolute;
@@ -11,6 +11,15 @@ h2,
 h3 {
   text-align: center;
   font-size: 2;
+}
+h1 {
+  visibility: hidden;
+}
+h2 {
+  visibility: hidden;
+}
+.section .sub-header {
+  visibility: hidden;
 }
 .main-content h1 {
   text-align: center;
@@ -41,7 +50,7 @@ footer {
   letter-spacing: 0.03em;
 }
 /* Site header begins */
-.logo b {
+.logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -64,7 +73,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color:#212121;
+  color: #212121;
 }
 .item a {
   font-family: Roboto;
@@ -74,8 +83,12 @@ footer {
   line-height: 1.14;
   color: #757575;
 }
+/* hidden the bottom */
+
 /* Add hover, focus and active(dark/blue color) for nav unit */
-.title .title-2:active
+.sub-nav .title .title-2:focus,
+.sub-nav .title .title-2:hover,
+.title .title-2:active,
 .title .title-1:focus,
 .title .title-1:hover,
 .title .title-1:active {
@@ -83,11 +96,11 @@ footer {
 }
 .item .e-mail:hover,
 .item .e-mail:focus {
-  color: black;
+  color: #2196f3;
 }
 .item .tel:hover,
 .item .tel:focus {
-  color: black;
+  color: #2196f3;
 }
 /* Main content */
 .titles .btn-option {
@@ -129,10 +142,16 @@ footer {
   color: #757575;
 }
 /* End main content and footer starting */
-.footerbox {
-  background-color: var(--master-color);
+.basement {
+  background-color: var(--background-color);
 }
-.footerbox .link-1 {
+.logotype .web-link {
+  color: #2196f3;
+}
+.basement a {
+  color: #212121;
+}
+.basement .logotype {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -143,21 +162,28 @@ footer {
 .footerbox .link-1 .site {
   color: #2196f3;
 }
-.registr .location {
+.info .contact-details {
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff
+  color: #ffffff;
 }
-.footerbox .registr a {
+.info .link-mail {
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
-
+.info .web-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

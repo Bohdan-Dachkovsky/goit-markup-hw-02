@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <nav class="Net-menu">
             <!-- Navigation-menu -->
-            <a class="logo" href=""><b><span class="half-1">Web</span>Studio</b></p></a>
+                 <a aria-label="Ссылка на страницу" class="logo" href=""><span class="half-1">Web</span>Studio</a>
             <ul lang=ru class="sub-nav">
                 <li class="title">
                  <a class="title-1" href="./index.html">Студия</a>  
@@ -26,7 +27,7 @@
                 </li>
             </ul>
         </nav>
-    <!-- Секция! -->
+
             <ul class="item">
                 <li><a class="e-mail" href="">info@devstudio.com</a></li>
                 <li><a class="tel" href="">+38 096 111 11 11</a></li>
@@ -36,10 +37,8 @@
     <main class="main-content">
         <!-- Main content portfolio -->
         <h1>Главная страница портфолио</h1>
-        <!-- Скрыть заголовок -->
      <section lang="ru" class="section">
-         <h2>Кнопки управления</h2>
-          <!-- скрыть  -->
+         <h2 class="sub-header">Кнопки управления</h2>
          <ul class="titles">
              <li>
                  <button class="btn-option" type="button">Все</button>
@@ -64,61 +63,60 @@
         <ul>
             <li class="feature">
                 <img src="./images/portfolio-picture/img-1.jpg" alt="Сайт сообщиства">
-                <h3 class="paper">Технокряк</h3>
+                <h3 lang="en"  class="paper">Технокряк</h3>
                 <p>Веб-сайт</p>
             </li>
             <li class="feature">
                 <img src="./images/portfolio-picture/img-2.jpg" alt="Постер Новый Орлен проти Золотых звезд">
-                <h3 class="paper">Постер New Orlean vs Golden Star</h3>
+                <h3 lang="en"  class="paper">Постер New Orlean vs Golden Star</h3>
                 <p>Дизайн</p>
             </li>
             <li class="feature">
                 <img src="./images/portfolio-picture/img-3.jpg" alt="Ресторан морской еды">
-                <h3 class="paper">Ресторан Seafood</h3>
+                <h3 lang="en"  class="paper">Ресторан Seafood</h3>
                 <p>Приложение</p>
             </li>
             <li class="feature">
                 <img src="images/portfolio-picture/img-4.jpg" alt="Главный проект">
-                <h3 class="paper">Проект Prime</h3>
+                <h3 lang="en"  class="paper">Проект Prime</h3>
                 <p>Маркетинг</p>
             </li>
             <li class="feature">
                 <img src="images/portfolio-picture/img-5.jpg" alt="Проект коробки">
-                <h3 class="paper">Проект Boxes</h3>
+                <h3 lang="en"  class="paper">Проект Boxes</h3>
                 <p>Приложение</p>
             </li>
             <li class="feature">
                 <img src="images/portfolio-picture/img-6.jpg" alt="Нет границ вдохновения">
-                <h3 class="">Inspiration has no Borders</h3>
+                <h3 lang="en"  class="">Inspiration has no Borders</h3>
                 <p>Веб-сайт</p>
             </li>
             <li class="feature">
                 <img src="images/portfolio-picture/img-7.jpg" alt="Изданые ограниченный випуск">
-                <h3 class="paper">Издание Limited Edition</h3>
+                <h3 lang="en"  class="paper">Издание Limited Edition</h3>
                 <p>Дизайн</p>
             </li>
             <li class="feature">
                 <img src="images/portfolio-picture/img-8.jpg" alt="Проект ЛАБ">
-                <h3 class="paper">Проект LAB</h3>
+                <h3 lang="en"  class="paper">Проект LAB</h3>
                 <p>Маркетинг</p>
             </li>
             <li class="feature">
                 <img src="images/portfolio-picture/img-9.jpg" alt="Возрастающий бизнес">
-                <h3 class="paper">Growing Business</h3>
+                <h3 lang="en" class="paper">Growing Business</h3>
                 <p>Приложение</p>
             </li>
         </ul>
      </section>
     </main>
-        <footer class="footerbox">
-            <!-- Inception footer-->
-            <a class="link-1" href="" aria-label="link to page"><span class="site">Web</span>Studio</a>
-            <address class="registr">
-                <ul>       
-                     <p class="location"> г. Киев, пр-т Леси Украинки, 26 </p>
-                     <p><a class="details" href="mailto:info@example.com"> info@example.com </a></p>
-                     <p><a class="details" href="tel.+38 099 111 11 11"> +38 099 111 11 11</a></p>
-                </ul>
+        <!--The end of the main content-->
+        <footer class="basement">
+            <!-- Basement site -->
+            <a aria-label="Ссылка на страницу" lang="en" class="logotype" href="" ><span class="web-link">Web</span>Studio</a>
+            <address class="info">
+                <p class="contact-details"> г. Киев, пр-т Леси Украинки, 26 </p>
+                <a class="link-mail" href="mailto:info@example.com">info@example.com </a><br>
+                <a class="web-link" href="tel.+380991111111"> +38 099 111 11 11</a>
             </address>
         </footer>
 </body>
