@@ -150,7 +150,7 @@ h3 {
   color: #ffffff;
   background-color: var(--basic-bg-color);
 }
-.wrapper .button .btn {
+.wrapper  .btn {
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -214,7 +214,7 @@ h3 {
   background-color: #2f303a;
 }
 /* Шрифт к футтеру logo*/
-.logotype .web-link {
+.logotype .title-link {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -243,7 +243,7 @@ h3 {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-.basement .info .web-link {
+.basement .info .title-link {
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
