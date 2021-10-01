@@ -19,7 +19,7 @@ color: #2196F3;
 }
 .logo {
   color: black;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -31,7 +31,7 @@ color: #2196F3;
 }
 /* Шрифт навигации */
 .site-nav .item-1 > a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -44,14 +44,20 @@ color: #2196F3;
 }
 /* Шрифт навигации */
 .site-nav a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
+
+/* Add backlights */
+.site-nav .item-1 .current {
+  color: #2196F3;
+}
 /* Add ps-style hover and active for nav unit */
+
 .site-nav .item-1 .link:hover,
 .site-nav .item-1 .link:active {
   color: #2196f3;
@@ -72,7 +78,7 @@ color: #2196F3;
 
 /* Дополнительная навигация */
 .e-mail {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -86,7 +92,7 @@ color: #2196F3;
 }
 /* Дополнительная навигация */
 .tittle {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -95,7 +101,7 @@ color: #2196F3;
   color: var(--basic-bg-color);
 }
 .list .list-tel {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -104,7 +110,7 @@ color: #2196F3;
   letter-spacing: 0.02em;
 }
  .list .e-mail {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -136,7 +142,7 @@ h3 {
 }
 /* Header-1 */
 .wrapper .headline {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36px;
@@ -151,7 +157,7 @@ h3 {
   background-color: var(--basic-bg-color);
 }
 .wrapper  .btn {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -160,13 +166,13 @@ h3 {
 }
 /* "List" */
 .activity-list .items p {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .activity-list .items h3 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -178,14 +184,14 @@ h3 {
   color: var(--primery-item-color);
 }
 .section .subtitle-1 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: #212121;
 }
 .section .subtitle-2 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -193,7 +199,6 @@ h3 {
   color: #212121;
 }
 .section .spesialist .team {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -201,7 +206,7 @@ h3 {
   color: #212121;
 }
 .section .desc {
-  font-family: Roboto;
+  font-family:Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -214,15 +219,15 @@ h3 {
   background-color: #2f303a;
 }
 /* Шрифт к футтеру logo*/
-.logotype .title-link {
-  font-family: Raleway;
+.logotype .site-link {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.93;
   color: #2196f3;
 }
 .basement a {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.93;
@@ -230,21 +235,24 @@ h3 {
 }
 /* Значение в адресе */
 .contact-details {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
 .info .link-mail {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+.basement .info .no-italic {
+  font-style: normal;
+}
 .basement .info .title-link {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
