@@ -16,6 +16,21 @@ h1 {
   visibility: hidden;
 }
 
+.net-menu .sub-nav a {
+  font-family: Roboto, sans-serif;
+}
+a, p, h3{ font-family: Roboto, sans-serif;}
+.net-menu a:first-child {
+  font-family: Raleway, sans-serif;
+}
+button {
+  font-family: Roboto, sans-serif;
+}
+.basement a {
+  font-family: Roboto, sans-serif;
+}
+
+
 .section .sub-header {
   visibility: hidden;
 }
@@ -49,7 +64,7 @@ footer {
 }
 /* Site header begins */
 .logo {
-  font-family: Raleway;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -60,7 +75,7 @@ footer {
 }
 /* Pages color */
 .title .title-1 {
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -71,14 +86,14 @@ footer {
   color: #2196f3;
 }
 .sub-nav .title .title-2 {
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color:  #2196f3;
 }
 .item a {
-  font-family: Roboto;
+  
 
   font-weight: 500;
   font-size: 14px;
@@ -119,7 +134,7 @@ footer {
  color:#212121; 
 }
 .titles .btn-option {
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -142,7 +157,7 @@ color: #ffffff;
 
 /* background div) */
 .titles .btn {
-  font-family: Roboto;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 62;
@@ -153,7 +168,7 @@ color: #ffffff;
 }
 /* Projects commyuity */
 .feature .paper {
-  font-family: Roboto;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -161,7 +176,7 @@ color: #ffffff;
   color: #212121;
 }
 .section .feature p {
-  font-family: Roboto;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
@@ -179,7 +194,7 @@ color: #ffffff;
   color: #212121;
 }
 .basement .logotype {
-  font-family: Raleway;
+  
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -190,14 +205,14 @@ color: #ffffff;
   color: #2196f3;
 }
 .info .contact-details {
-  font-family: Roboto;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
 .info .link-mail {
-  font-family: Roboto;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -206,7 +221,6 @@ color: #ffffff;
   color: rgba(255, 255, 255, 0.6);
 }
 .info .web-link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

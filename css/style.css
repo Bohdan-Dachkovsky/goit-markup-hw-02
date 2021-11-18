@@ -173,14 +173,17 @@ h3 {
 .wrapper .btn {
   color: #ffffff;
   background-color: var(--basic-bg-color);
-}
-.wrapper  .btn {
-  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.wrapper .btn:hover {
+color:rgba(255, 255, 255, 1);
+ background-color:
+rgba(24, 140, 232, 1);
 }
 /* "List" */
 .activity-list .items p {
